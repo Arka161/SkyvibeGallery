@@ -88,7 +88,7 @@ while ($img = mysqli_fetch_assoc($result)){
 	?>
             <li>
                 <img alt="<?php echo $img['Caption'] ?>"  src="<?php echo $img['Imgsource'] ?>">
-                <div class="text"><a href="<?php echo $img['Source'] ?>"><?php echo $img['Caption'] ?></a></div>
+                <div class="text"><a href="<?php echo $img['Source'] ?>" target="_blank"><?php echo $img['Caption'] ?></a></div>
             </li>
 <?php
 
