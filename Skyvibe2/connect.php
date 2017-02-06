@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","skyvibe");
+$con = mysqli_connect("localhost","root","","meme_base");
 // Check connection
 if (mysqli_connect_errno())
   {
